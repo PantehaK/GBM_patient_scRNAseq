@@ -20,8 +20,7 @@ Run the scripts in order from the repository root, e.g. `Rscript scripts/01_qual
 
 ## Input data
 
-- Cell Ranger `multi` outputs in `data/raw/GBM*/` (gene expression, antibody capture, VDJ-T). Raw data are available from [ADD ACCESSION].
-- `data/metadata/` files described in `data/metadata/README.md`.
+- Cell Ranger `multi` outputs in `data/raw/GBM*/` (gene expression, antibody capture, VDJ-T). Raw data will be available from EGA after archiving process is complete.
 
 ## Figure to script map
 
@@ -50,8 +49,7 @@ Run the scripts in order from the repository root, e.g. `Rscript scripts/01_qual
 
 ## Software
 
-R 4.x with Seurat v5, harmony, DoubletFinder, hdWGCNA, WGCNA, enrichR, circlize, VennDiagram, pheatmap, tidyverse. Exact versions are printed by `sessionInfo()` at the end of `07_correlation_analysis.R`. [ADD renv.lock or version table]
+R 4.x with Seurat v5, harmony, DoubletFinder, hdWGCNA, WGCNA, enrichR, circlize, VennDiagram, pheatmap, tidyverse. Exact versions are printed by `sessionInfo()` at the end of `07_correlation_analysis.R`.
 
 ## Citation
 
-[ADD]
